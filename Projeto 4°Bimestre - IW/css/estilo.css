@@ -1,0 +1,104 @@
+html {
+
+	scroll-behavior: smooth;
+}
+
+#sobre {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+		}
+
+.ano{
+
+	border-color: #000000;
+	border-radius: 50%;
+	width: 40%;
+	margin-right: auto;
+	margin-left: auto;
+	font-weight: 700;
+	margin-bottom: 2vh;
+}
+
+#titulos {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#titulos h2{
+	margin-top: 20px;
+}
+
+#hino {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#hino h3 {
+	margin-top: 10px;
+	font-size: 50px;
+	text-align: center;
+}
+
+#hino p {
+	font-size: 20px;
+	text-align: center;
+}
+
+#hino audio {
+	width: 80%;
+}
+
+
+#fotoescudo {
+	position: relative;
+	text-align: center;
+}
+
+#fotoescudo img {
+	width: 80%
+}
+
+/*Contato*/
+
+#contato{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #A9A9A9;
+	width: 100%;
+}
+
+#contato h2{
+	margin-left: 20px;
+	margin-width: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 2em;
+	text-align: center;
+	color: #000000;
+}
+
+#contato > p{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	color: #000000;
+	text-align: center;
+}
+
+#contato a{
+	color: #000000;
+	font-family: "Arial", sans-serif;
+	text-decoration: none;
+
+}
+
+#contato img{
+	width: 10%;
+}
